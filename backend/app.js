@@ -7,6 +7,6 @@ config();
 //middlewares
 app.use(express.json());
 
-app.use("/api/auth", appRouter);
+app.use("/api", appRouter);
 
 export default app;
