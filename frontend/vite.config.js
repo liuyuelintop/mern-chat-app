@@ -11,8 +11,5 @@ export default defineConfig({
         target: "http://localhost:8000",
       },
     },
-    build: {
-      outDir: "dist", // Make sure this is correctly set
-    },
   },
 });
